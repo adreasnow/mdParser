@@ -1,0 +1,7 @@
+h1 = "style 1"
+h2 = "style 2"
+h3 = "style 3"
+h4 = "style 4"
+p = "style p"
+code = "style code"
+link = "style link"

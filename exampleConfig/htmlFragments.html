@@ -1,0 +1,27 @@
+{{ block "h1" . }}
+<h1 sytle="{{ .Style }}">{{ .Content }}</h1>
+{{ end }}
+
+{{ block "h2" . }}
+<h2 sytle="{{ .Style }}">{{ .Content }}</h2>
+{{ end }}
+
+{{ block "h3" . }}
+<h3 sytle="{{ .Style }}">{{ .Content }}</h3>
+{{ end }}
+
+{{ block "h4" . }}
+<h4 sytle="{{ .Style }}">{{ .Content }}</h4>
+{{ end }}
+
+{{ block "p" . }}
+<p sytle="{{ .Style }}">{{ .Content }}</p>
+{{ end }}
+
+{{ block "code" . }}
+<span sytle="{{ .Style }}">{{ .Content }}</span>
+{{ end }}
+
+{{ block "link" . }}
+<a sytle="{{ .Style }}" href="{{ .Link }}"></a>
+{{ end }}
